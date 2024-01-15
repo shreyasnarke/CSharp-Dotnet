@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 namespace Hello //container
@@ -20,11 +21,11 @@ namespace Hello //container
                     Console.WriteLine(x);
                     Console.ReadLine();
              */
-            Console.WriteLine("Hello world");
-            Console.WriteLine("Hello");
-            Console.Write("Hello once");
-            Console.WriteLine("Shree"+harry);
-            Console.ReadLine();
+            //Console.WriteLine("Hello world");
+            //Console.WriteLine("Hello");
+            //Console.Write("Hello once");
+            //Console.WriteLine("Shree"+harry);
+            //Console.ReadLine();
             /*  
               int x = 3;
               double y = 4;
@@ -37,12 +38,52 @@ namespace Hello //container
               Console.WriteLine(varr);
               Console.ReadLine();
             */
-            Console.WriteLine("Enter Your name::");
-            string name=Console.ReadLine();
-            Console.WriteLine("Hello" + name);
-            Console.WriteLine("How many candidates you want?");
-            string can=Console.ReadLine();
-            Console.WriteLine("You will get 4 more candidate"+Convert.ToInt32(can)+4);
+            //Console.WriteLine("Enter Your name::");
+            //string name=Console.ReadLine();
+            //Console.WriteLine("Hello" + name);
+            //Console.WriteLine("How many candidates you want?");
+            //string can=Console.ReadLine();
+            //Console.WriteLine("You will get 4 more candidate"+(Convert.ToInt32(can)+4));
+            //Console.ReadLine();
+
+            //OPERATORS IN C#
+            //    1.Arithmetic operators
+            //    2.Assignment operators
+            //    3.Logical operators
+            //    4.comparison operators
+            //
+            // 1.Arithmetic operators
+            //int a = 4;
+            //int b = 2;
+            //Console.WriteLine("The Value of a + b is "+ (a + b));
+            //Console.WriteLine("The Value of a - b is " + (a - b));
+            //Console.WriteLine("The Value of a * b is " + (a * b));
+            //Console.WriteLine("The Value of a / b is " + (a / b));
+            //Console.ReadLine();
+
+            //2:Assignment Operator
+            //int a = 4;
+            //int b = a;
+            //b += 4;
+            //b -= 4;
+            //b /= 4;
+            //Console.WriteLine(b);
+            //Console.ReadLine();
+
+            ////3:Logical Oprator
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(false || false);
+            //Console.WriteLine(!false);
+            //Console.WriteLine(!true);
+            //Console.ReadLine();
+
+            //4.Comparison operators
+            Console.WriteLine(232>411);
+            Console.WriteLine(232 >= 242);
+            Console.WriteLine(2424<=2424);
+            Console.WriteLine(24242!=2322);
+            Console.WriteLine(3434 == 343);
             Console.ReadLine();
         }
     }
