@@ -9,7 +9,7 @@ namespace Hello //container
     internal class Program{
         static void Main(string[] args)
         {
-            int harry = 43;
+            //int harry = 43;
             /*
             Data types-int-4,long-8,double-34.4D-8,float-34.4F-4,char-2,bool-1 bit,string-2/character
             Type Casting - 
@@ -79,12 +79,41 @@ namespace Hello //container
             //Console.ReadLine();
 
             //4.Comparison operators
-            Console.WriteLine(232>411);
-            Console.WriteLine(232 >= 242);
-            Console.WriteLine(2424<=2424);
-            Console.WriteLine(24242!=2322);
-            Console.WriteLine(3434 == 343);
+            //Console.WriteLine(232>411);
+            //Console.WriteLine(232 >= 242);
+            //Console.WriteLine(2424<=2424);
+            //Console.WriteLine(24242!=2322);
+            //Console.WriteLine(3434 == 343);
+            //Console.ReadLine();
+
+            //Math class methods
+            int a = Math.Min(34,345);
+            Console.WriteLine(a);
+            int b = Math.Max(34,36);
+            Console.WriteLine(b);
+            //sqrt reutrns double data type
+            double c = Math.Sqrt(b);
+            Console.WriteLine(c);
+            double d=Math.Abs(c);
+            Console.WriteLine(d);
+            Console.WriteLine(Math.Round(d));
+            string hello="Hello this is shreyas";
+            Console.WriteLine(hello.Length);
+            Console.WriteLine(hello.ToUpper());
+            Console.WriteLine(hello.ToLower());
+            Console.WriteLine(hello.IndexOf("is"));
+            Console.WriteLine(hello.Substring(5));
+            string helloo = "Hello\t this \n is shreyas";
+            Console.WriteLine(helloo.Length);
             Console.ReadLine();
+
+            //string concatenation method 
+            string name = Console.ReadLine();   
+            string candy=Console.ReadLine();
+            Console.WriteLine($"You are {name}.You will get {candy}");
+            Console.ReadLine();
+
+            //
         }
     }
 } 
