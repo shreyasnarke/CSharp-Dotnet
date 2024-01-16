@@ -87,33 +87,98 @@ namespace Hello //container
             //Console.ReadLine();
 
             //Math class methods
-            int a = Math.Min(34,345);
-            Console.WriteLine(a);
-            int b = Math.Max(34,36);
-            Console.WriteLine(b);
-            //sqrt reutrns double data type
-            double c = Math.Sqrt(b);
-            Console.WriteLine(c);
-            double d=Math.Abs(c);
-            Console.WriteLine(d);
-            Console.WriteLine(Math.Round(d));
-            string hello="Hello this is shreyas";
-            Console.WriteLine(hello.Length);
-            Console.WriteLine(hello.ToUpper());
-            Console.WriteLine(hello.ToLower());
-            Console.WriteLine(hello.IndexOf("is"));
-            Console.WriteLine(hello.Substring(5));
-            string helloo = "Hello\t this \n is shreyas";
-            Console.WriteLine(helloo.Length);
+            //int a = Math.Min(34,345);
+            //Console.WriteLine(a);
+            //int b = Math.Max(34,36);
+            //Console.WriteLine(b);
+            ////sqrt reutrns double data type
+            //double c = Math.Sqrt(b);
+            //Console.WriteLine(c);
+            //double d=Math.Abs(c);
+            //Console.WriteLine(d);
+            //Console.WriteLine(Math.Round(d));
+            //string hello="Hello this is shreyas";
+            //Console.WriteLine(hello.Length);
+            //Console.WriteLine(hello.ToUpper());
+            //Console.WriteLine(hello.ToLower());
+            //Console.WriteLine(hello.IndexOf("is"));
+            //Console.WriteLine(hello.Substring(5));
+            //string helloo = "Hello\t this \n is shreyas";
+            //Console.WriteLine(helloo.Length);
+            //Console.ReadLine();
+
+            ////string concatenation method 
+            //string name = Console.ReadLine();   
+            //string candy=Console.ReadLine();
+            //Console.WriteLine($"You are {name}.You will get {candy}");
+            //Console.ReadLine();
+
+            //Decision Control methods
+            //1.if-else statements
+            //Console.WriteLine("Enter your age");
+            //string agestr = Console.ReadLine();
+            //int age = Convert.ToInt32(agestr);
+            //bool isBanned = true;
+
+            //if( age == 6 || isBanned)
+            //{
+            //    Console.WriteLine("You can capable to drive or banned");
+            //}
+            //else if(age > 16 || isBanned)
+            //{
+            //    Console.WriteLine("You can drive or banned");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You cannot drive");
+            //}
+            //Console.ReadLine();
+
+            //2:Switch condiotionsp
+            //int age = 70;
+            //switch(age)
+            //{
+            //    case 18: 
+            //        Console.WriteLine("Please wait for year") ;
+            //        break;
+            //    case 70:
+            //        Console.WriteLine("Please wait for 1 year");
+            //        break;
+            //    default: Console.WriteLine("enjoy");
+            //        break;
+            //}
+
+            //Loops in C sharp
+            
+            //1::While loop
+            //int i =0;
+            //while (i < 5)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            //2::do..while loop
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine(i+1);
+            //    i++;
+            //}while (i < 5);
+
+            //3::for loop
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    if (i == 0)
+            //    {
+            //        continue;//skip 1 output::2,3,4,5
+            //    }
+            //    Console.WriteLine(i + 1);
+            //}
+
+
             Console.ReadLine();
 
-            //string concatenation method 
-            string name = Console.ReadLine();   
-            string candy=Console.ReadLine();
-            Console.WriteLine($"You are {name}.You will get {candy}");
-            Console.ReadLine();
-
-            //
         }
     }
 } 
