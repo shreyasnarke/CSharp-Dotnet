@@ -2,11 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 namespace Hello //container
 {
     internal class Program{
+        //functions
+        static void Greet(string name)
+        {
+            Console.WriteLine("Good morning (Greet function)"+name);
+        }
+        static int Avg(int a,int b,int c)
+        {
+            int sum = a + b + c;
+            return sum / 3;
+        }
+
         static void Main(string[] args)
         {
             //int harry = 43;
@@ -149,7 +161,7 @@ namespace Hello //container
             //}
 
             //Loops in C sharp
-            
+
             //1::While loop
             //int i =0;
             //while (i < 5)
@@ -176,7 +188,16 @@ namespace Hello //container
             //    Console.WriteLine(i + 1);
             //}
 
+            //Greet("Shreyas");
+            //Console.WriteLine(Avg(2,6,8));
+            //float temp=Avg(2,5,10);
+            //Console.WriteLine(temp);
 
+            //OOP's-Classes and objects
+            Class1 tommy = new Class1();
+            Console.WriteLine(tommy.health);
+            tommy.setHealth(100);
+            Console.WriteLine(tommy.getHealth());
             Console.ReadLine();
 
         }
